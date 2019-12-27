@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AF17E01A-7D65-494A-8D55-7B1AD7DF699A}</ProjectGuid>
+    <ProjectGuid>{ED007FCB-9FFE-4C0B-8200-5FC0A4A8B7E7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GolfTrackerUI</RootNamespace>
-    <AssemblyName>GolfTrackerUI</AssemblyName>
+    <RootNamespace>GolfTrackerDataLayer</RootNamespace>
+    <AssemblyName>GolfTrackerDataLayer</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="JsonSerializer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\GolfTrackerLibrary\GolfTrackerLibrary.csproj">
-      <Project>{65b327ba-dbe2-4d8e-b517-2ea6f3485fa4}</Project>
-      <Name>GolfTrackerLibrary</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GolfTrackerUI", "GolfTrackerUI\GolfTrackerUI.csproj", "{AF17E01A-7D65-494A-8D55-7B1AD7DF699A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GolfTrackerLibrary", "GolfTrackerLibrary\GolfTrackerLibrary.csproj", "{65B327BA-DBE2-4D8E-B517-2EA6F3485FA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GolfTrackerTest", "GolfTrackerTest\GolfTrackerTest.csproj", "{A253CA11-CBB0-4F66-B1A9-62409AB57DBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GolfTrackerDataLayer", "GolfTrackerDataLayer\GolfTrackerDataLayer.csproj", "{ED007FCB-9FFE-4C0B-8200-5FC0A4A8B7E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{AF17E01A-7D65-494A-8D55-7B1AD7DF699A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF17E01A-7D65-494A-8D55-7B1AD7DF699A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF17E01A-7D65-494A-8D55-7B1AD7DF699A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65B327BA-DBE2-4D8E-B517-2EA6F3485FA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65B327BA-DBE2-4D8E-B517-2EA6F3485FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65B327BA-DBE2-4D8E-B517-2EA6F3485FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65B327BA-DBE2-4D8E-B517-2EA6F3485FA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A253CA11-CBB0-4F66-B1A9-62409AB57DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A253CA11-CBB0-4F66-B1A9-62409AB57DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A253CA11-CBB0-4F66-B1A9-62409AB57DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A253CA11-CBB0-4F66-B1A9-62409AB57DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED007FCB-9FFE-4C0B-8200-5FC0A4A8B7E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED007FCB-9FFE-4C0B-8200-5FC0A4A8B7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED007FCB-9FFE-4C0B-8200-5FC0A4A8B7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED007FCB-9FFE-4C0B-8200-5FC0A4A8B7E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
